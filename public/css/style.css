@@ -1,0 +1,78 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ff0050;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #e60047;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+}
+.btn-light:hover {
+  background-color: #f2f2f2;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+.subtext {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+.hero-buttons a {
+  margin: 0 0.5rem;
+}
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.hero-images img {
+  width: 50px;
+  height: auto;
+}
+
