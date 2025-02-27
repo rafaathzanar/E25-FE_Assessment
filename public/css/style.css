@@ -376,7 +376,7 @@ body {
 .collaboration-right h1 {
   font-size: 60px;
   margin-bottom: 1rem;
-  color: #000;
+  color: #000743;
 }
 
 .collaboration-right p {
@@ -384,5 +384,5 @@ body {
   width: 660px;
   height: 96px;
   line-height: 1.6;
-  color: #555;
+  color: #000743;
 }
