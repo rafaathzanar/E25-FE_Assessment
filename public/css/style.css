@@ -154,3 +154,139 @@ body {
 .btn-primary:hover {
   background-color: #e60047;
 }
+
+/* AI automation styles */
+.ai-automation {
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background: linear-gradient(125.27deg, #ff59fc -32.83%, #6b1065 44.71%);
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1 1 45%;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.text-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.devices {
+  flex: 1 1 50%;
+  position: relative;
+  min-height: 300px;
+}
+
+.device {
+  position: absolute;
+  width: 400px;
+  height: auto;
+}
+
+.device-behind {
+  top: 30px;
+  right: 0;
+  z-index: 1;
+}
+
+.device-front {
+  top: 0;
+  right: 200px;
+  z-index: 2;
+}
+
+.device-outline,
+.device-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.device-outline {
+  background-color: #03002f;
+}
+
+.screen-content {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  color: #000;
+}
+
+.screen-content h3 {
+  margin-top: 167.11px;
+  font-size: 30px;
+  background: linear-gradient(
+    74.66deg,
+    #ff3366 9.7%,
+    #007aff 65.04%,
+    #39cccc 100%
+  );
+  color: transparent;
+  background-clip: text;
+  text-align: left;
+}
+.screen-content p {
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ff0050;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #e60047;
+}
+
+@media (max-width: 768px) {
+  .ai-automation {
+    flex-direction: column;
+    text-align: center;
+  }
+  .devices {
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 400px;
+  }
+  .device {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .device-behind {
+    top: 20px;
+  }
+  .device-front {
+    top: 70px;
+  }
+}
