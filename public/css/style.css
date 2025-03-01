@@ -293,17 +293,17 @@ body {
 
 /* collacboration tools */
 .collaboration-tool {
-  height: 500px;
+  height: 528px;
   position: relative;
   overflow: hidden;
   padding: 2rem 2rem;
   background-color: #fff;
+  z-index: 3;
 }
 .sectioncollab-wrapper {
-  padding: 180px 0 0 0;
+  padding: 180px 0;
   position: relative;
   z-index: 3;
-  overflow: visible;
 }
 
 .background-effect {
@@ -319,7 +319,7 @@ body {
   position: absolute;
   width: 100%;
   height: auto;
-  top: -80px;
+  top: -85px;
 }
 
 .collaboration-content {
@@ -331,14 +331,6 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-.swirl_collab {
-  position: absolute;
-  top: -20%;
-  left: 0;
-  width: 100%;
-  z-index: 0;
-  filter: opacity(30%);
 }
 
 .collaboration-left {
