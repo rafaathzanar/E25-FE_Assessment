@@ -166,6 +166,7 @@ body {
   background: linear-gradient(125.27deg, #ff59fc -32.83%, #6b1065 44.71%);
   color: #fff;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .text-content {
@@ -300,7 +301,6 @@ body {
   z-index: 3;
 }
 .sectioncollab-wrapper {
-  background-color: #fff;
   padding: 180px 0;
   position: relative;
   z-index: 3;
